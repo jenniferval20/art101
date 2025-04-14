@@ -1,52 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>  <link rel="stylesheet" type="text/css" href="css/lab.css">
+  <meta charset="UTF-8">
+  <title>All About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Lab X - Subject/Topic</h1>
-			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
-			</div>
+  <h1>All About Me</h1>
 
-			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>Hi! My name is Jennifer Vallecillo. I'm 20 years old and I live in San Francisco.</p>
+	<img src="/Users/jennifer.xlv/Downloads/IMG_203927_0.PNG" alt="introduction"
+  </div>
 
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
+  <div class="section">
+    <h2>School & Education</h2>
+    <p>I am currently studying Psychology at. UC Santa Cruz.</p>
+  </div>
 
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-			</div>
-		</section>
-		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-		</nav>
-	</main>
+  <div class="section">
+    <h2>Hobbies & Interests</h2>
+    <p>In my free time, I love to go the beach with my friends and enjoy the sun.</p>
+    <img src="/Users/jennifer.xlv/Downloads/IMG_4846.JPG" alt="Me doing my hobby">
+  </div>
+
+  <div class="section">
+    <h2>Fun Facts</h2>
+    <ul>
+      <li>My favorite color is blue.</li>
+      <li>I have a pet cat named pablo.</li>
+      <li>My dream vacation is to visit italy.</li>
+	  <img src="/Users/jennifer.xlv/Downloads/IMG_4529.jpeg" alt="Me doing my hobby">
+    </ul>
+  </div>
+
 </body>
 </html>
