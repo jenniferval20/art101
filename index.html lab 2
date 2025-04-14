@@ -1,0 +1,63 @@
+index.html lab 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>All About Me</h1>
+
+  <div class="section">
+    <h2>👋 Introduction</h2>
+    <p>Hi! My name is [Your Name]. I'm [Your Age] years old and I live in [Your City or Country].</p>
+    <img src="your-photo.jpg" alt="A photo of me">
+  </div>
+
+  <div class="section">
+    <h2>🎓 School & Education</h2>
+    <p>I am currently studying [Your Major or Grade] at [Your School Name]. I enjoy learning about [Subjects or Interests].</p>
+    <img src="school-photo.jpg" alt="My school or a related image">
+  </div>
+
+  <div class="section">
+    <h2>🎯 Hobbies & Interests</h2>
+    <p>In my free time, I love to [Your Hobbies].</p>
+    <img src="hobby-photo.jpg" alt="Me doing my hobby">
+  </div>
+
+  <div class="section">
+    <h2>🌟 Fun Facts</h2>
+    <ul>
+      <li>My favorite color is [Color].</li>
+      <li>I have a pet [Pet Type] named [Pet Name].</li>
+      <li>My dream vacation is to visit [Place].</li>
+    </ul>
+    <img src="fun-fact-photo.jpg" alt="Something fun about me">
+  </div>
+
+</body>
+</html>
