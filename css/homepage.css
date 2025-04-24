@@ -1,6 +1,10 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+.my-photo {
+  margin: 10px;
+  max-width: 500px;
+}
+.cat {
   margin: 10px;
   max-width: 500px;
 }
