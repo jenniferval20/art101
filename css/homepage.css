@@ -1,10 +1,23 @@
 /* this css file will only style the homepage of our site */
 
+.playfair-display-uniquifier> {
+  font-family: "Playfair Display", serif;
+  
+}
 .my-photo {
-  margin: 10px;
-  max-width: 500px;
+  margin: 8px;
+  max-width: 100px;
 }
 .cat {
-  margin: 10px;
-  max-width: 500px;
+  margin: 8px;
+  max-width: 100px;
 }
+.beach {
+  margin:8px;
+  max-width: 100px;
+}
+
+.my-photo {
+  border-radius: 30px
+}
+

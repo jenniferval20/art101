@@ -4,6 +4,10 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #fff3f3;
+    background-color: #e4c6dd;
+  }
+  .cat{
+    margin: 10px;
+  max-width: 100px;
   }
