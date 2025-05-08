@@ -19,32 +19,71 @@
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="lab 8/js/lab.js" DEFER></script>
 	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Lab 8</title>
-		<link rel="stylesheet" href="css/site.css">
-		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-		<script src="js/lab.js" defer></script>
-	</head>
-	<body>
-		<h1>Lab 8: Callback Functions with Map</h1>
-	
-		<div id="challenge">
-			<h2>Challenge</h2>
-			<p>Use map() and callback functions to manipulate an array of numbers.</p>
-		</div>
-	
-		<div id="problems">
-			<h2>Problems</h2>
-			<p>Experimenting with callback syntax and console debugging.</p>
-		</div>
-	
-		<div id="results">
-			<h2>Results</h2>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body>
+	<main id="content">
+		<section>
+			<h1>Lab 8 - Anon Functions and Callbacks
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p><p>The challenge of the lab was to design and implement a responsive webpage using HTML and CSS that adheres to accessibility standards and functions well on both desktop and mobile devices.</p					.</p>
+			</div>
 
-			<div id="output"></div>
-		</div>
-	</body>
-	</html>
-	
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p><p>One issue was that my layout broke on smaller screens due to fixed-width elements. I solved this by using flexible units like percentages and adding media queries to adjust styles based on screen size. I also had trouble aligning elements, which I fixed using Flexbox.</p>
+				</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p><p>This assignment was challenging but rewarding. I spent a lot of time troubleshooting layout bugs and researching CSS best practices. I feel more confident in using responsive design techniques and learned the importance of planning before coding.</p>
+				</p>
+			</div>
+    <main id="content">
+      <section>
+        <div class="minor-section">
+          <h2>Results</h2>
+          <p>Here is the JavaScript program execution:</p>
+          <div>
+            <h3>Script Output</h3>
+            <!-- JavaScript output will appear here -->
+            <div class="output" id="output"></div>
+          </div>
+        </div>
+      </section>
+
+      <nav id="links">
+        <a href="../index.html">Homepage</a>
+        <!-- Put links to other pages (including the homepage) here -->
+      </nav>
+    </main>
+
+    <script>
+      // Function to check if a number is even
+      function isEven(x) {
+        return (x % 2 === 0);
+      }
+
+      // Test function
+      var output = document.getElementById("output");
+
+      output.innerHTML += "Is 1 even? " + isEven(1) + "<br>";
+      output.innerHTML += "Is 2 even? " + isEven(2) + "<br>";
+
+      var array = [100, 81, 4, 16, 42, 144, 10000];
+      output.innerHTML += "My array: " + array.join(", ") + "<br>";
+
+      var result = array.map(isEven);
+      output.innerHTML += "Test of evenness of array: " + result.join(", ") + "<br>";
+
+      var sqrtResult = array.map(function(x) {
+        return Math.sqrt(x);
+      });
+      output.innerHTML += "Square root of array: " + sqrtResult.join(", ") + "<br>";
+    </script>
+  </body>
+</html>
