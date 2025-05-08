@@ -1,11 +1,3 @@
-/*
- * Author: Jennifer
- * Created: May 4, 2025
- * Lab 7 - JavaScript Functions and Strings
- * This program asks for the user's name, sorts the letters,
- * and displays the result on the webpage.
- */
-
 function sortUserName() {
     var userName = window.prompt("What's your name?");
     var sortedName = userName.split('').sort().join('');
