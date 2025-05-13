@@ -1,0 +1,30 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+/* Font styles for headings */
+h2, h3 {
+  font-family: 'Tangerine', cursive;
+}
+
+/* Font style for paragraphs */
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Styling for sections with the 'minor-section' class */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #fffff7;
+  background-color: #ffffe3;
+}
+
+/* Styling for the 'special' class that will be toggled by JavaScript */
+.special {
+  background-color: rgb(195, 129, 243);   /* Light lavender background */
+  border: dotted 5px rgb(171, 134, 246);   /* Dotted red border */
+  color: rgb(212, 161, 238);                /* Pink text */
+  font-weight: bold;                      /* Bold font */
+  padding: 10px;                          /* Padding around the content */
+}
