@@ -61,4 +61,18 @@ Here is the basic structure with stub or empty files in place.
 │   │   └── lab.css
 │   ├── img
 │   └── js
-│       └── lab.js
+│       └── lab.j
+├── lab8
+├── index.html
+│   ├── css
+│   │   └── lab.css
+│   ├── img
+│   └── js
+│       └── lab.j
+├── lab9
+├──index.html
+│   ├── css
+│   │   └── lab.css
+│   ├── img
+│   └── js
+│       └── lab.j
