@@ -1,6 +1,7 @@
 /* Font styles for headings */
-h1, h2, h3 {
-  font-family: 'Tangerine', cursive;
+h1, h2, h3 
+  .playfair-display-uniquifier> {
+    font-family: "Playfair Display", serif;
 }
 
 /* Font style for paragraphs */
@@ -13,5 +14,5 @@ p {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #ffffff;
-  background-color: #ffffe3;
+  background-color: #c5ebf9;
 }

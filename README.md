@@ -68,18 +68,18 @@ Here is the basic structure with stub or empty files in place.
 │   │   └── lab.css
 │   ├── img
 │   └── js
-│       └── lab.j
+│       └── lab.js
 ├── lab9
 ├──index.html
 │   ├── css
 │   │   └── lab.css
 │   ├── img
 │   └── js
-│       └── lab.j
+│       └── lab.js
 ├── lab10
 ├──index.html
 │   ├── css
 │   │   └── lab.css
 │   ├── img
 │   └── js
-│       └── lab.j
+│       └── lab.js
