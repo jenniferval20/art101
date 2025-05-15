@@ -1,0 +1,17 @@
+/* Font styles for headings */
+h1, h2, h3 {
+  font-family: 'Tangerine', cursive;
+}
+
+/* Font style for paragraphs */
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Styling for sections with the 'minor-section' class */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #ffffff;
+  background-color: #ffffe3;
+}
