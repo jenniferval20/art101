@@ -97,3 +97,10 @@ Here is the basic structure with stub or empty files in place.
 │   ├── img
 │   └── js
 │       └── lab.js
+├── lab13
+├── index.html
+│   ├── css
+│   │   └── lab.css
+│   ├── img
+│   └── js
+│       └── lab.js
