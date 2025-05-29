@@ -97,7 +97,11 @@ Here is the basic structure with stub or empty files in place.
 │   ├── img
 │   └── js
 │       └── lab.js
+<<<<<<< HEAD
 ├── lab14
+=======
+├── lab13
+>>>>>>> 029683fe6d2c4aca71d1a4c1f4f12119eeecdbbf
 ├── index.html
 │   ├── css
 │   │   └── lab.css
