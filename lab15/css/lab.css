@@ -1,14 +1,17 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* Font styles for headings */
+h1, h2, h3 {
+  font-family: 'Tangerine', cursive;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* Font style for paragraphs */
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Styling for sections with the 'minor-section' class */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #DDD8C4;
-}
-
-.lab3 {
-  width: 500px;
-  margin: 10px;
+  border: solid 1px #66afd7;
+  background-color: #b6c9f1;
 }

@@ -1,0 +1,53 @@
+/* Headings */
+
+
+h1, h2, h3 {
+  font-family: 'Tangerine', cursive;
+  color: #5d6842;
+}
+
+
+/* Paragraph text */
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  color: #53582d;
+}
+
+
+/* Section styling */
+.minor-section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #f2ffcb;
+  background-color: #f7ffd3;
+  border-radius: 8px;
+}
+
+
+/* Output area styling */
+#output {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f0ff8b;
+  border: 1px solid #fffad0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+/* XKCD image formatting */
+#output img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+/* Hover effect for image */
+#output img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+
